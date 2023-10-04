@@ -21,12 +21,4 @@ public class CreateUrl {
             return null;
         }
     }
-
-    public static void main(String[] args) {
-        String stickerName = "Clan-Mystik Katowice 2014";
-        String stickerURL = generateStickerURL(stickerName);
-
-        System.out.println("Sticker Name: " + stickerName);
-        System.out.println("Generated URL: " + stickerURL);
-    }
 }
